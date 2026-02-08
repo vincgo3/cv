@@ -1,0 +1,30 @@
+name: Update CV
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 15 * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Render CV
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}:/workspace \
+            -w /workspace \
+            ghcr.io/rendercv/rendercv:v2.6 render "Pham_Van_Hung_CV.yaml"
+
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add rendercv_output
+          git commit -m "chore: auto update CV" || exit 0
+          git push
