@@ -1,0 +1,10 @@
+[settings]
+python.uv_venv_auto = true
+
+[tools]
+uv = "0.9.28"
+
+[env]
+'_'.python.venv = { path = ".venv" }
+PYTHONUNBUFFERED = 1
+PYTHONDONTWRITEBYTECODE = 1

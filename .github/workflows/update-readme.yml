@@ -1,0 +1,23 @@
+name: Update README
+
+on:
+  push:
+    paths:
+      - "rendercv_output/**"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Copy CV to README
+        run: cp rendercv_output/Pham_Van_Hung_CV.md README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          git commit -m "Auto update README from CV" || exit 0
+          git push
