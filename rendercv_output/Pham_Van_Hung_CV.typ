@@ -13,7 +13,7 @@
   page-left-margin: 0.7in,
   page-right-margin: 0.7in,
   page-show-footer: true,
-  page-show-top-note: true,
+  page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 79, 144),
   colors-headline: rgb(0, 79, 144),

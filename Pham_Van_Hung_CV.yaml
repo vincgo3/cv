@@ -142,6 +142,9 @@ design:
   theme: classic
   typography:
     font_family: JetBrainsMono
+  page:
+    show_top_note: false
+
 locale:
   language: english
 settings:
