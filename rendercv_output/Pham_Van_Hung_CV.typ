@@ -166,6 +166,8 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
 
     - Monitored and improved system reliability, scalability, and performance
 
+    - Contributed to product development in an Agile\/Scrum environment, working cross-functionally and applying OKRs to drive prioritization and achieve product goals
+
   ],
   [
     District 3, Ho Chi Minh City, Vietnam
@@ -186,6 +188,8 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
     - Collaborated with stakeholders to gather requirements and improve system usability
 
     - Maintained and enhanced existing web systems to ensure performance and reliability
+
+    - Contributed to product development in an collaborative Agile\/Scrum environment
 
   ],
   [
@@ -216,7 +220,7 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
 
 #strong[Networking & Infrastructure:] Nginx, HAProxy, NetBird, SSH, OpenVPN, SCP, Linux, Windows
 
-#strong[AI\/ML:] Ollama, Hugging Face, OpenRouter
+#strong[AI\/ML:] Ollama, Hugging Face, OpenRouter, OpenAI-Compatible
 
 #strong[Testing:] Postman, Insomnia, Swagger, REST Client
 

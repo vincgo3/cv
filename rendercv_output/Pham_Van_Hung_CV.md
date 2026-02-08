@@ -66,6 +66,8 @@ Oct 2023 – present
 
 - Monitored and improved system reliability, scalability, and performance
 
+- Contributed to product development in an Agile/Scrum environment, working cross-functionally and applying OKRs to drive prioritization and achieve product goals
+
 
 
 ## **Bestarion**, Backend Developer (Ruby on Rails)
@@ -83,6 +85,8 @@ Sept 2022 – Mar 2023
 - Collaborated with stakeholders to gather requirements and improve system usability
 
 - Maintained and enhanced existing web systems to ensure performance and reliability
+
+- Contributed to product development in an collaborative Agile/Scrum environment
 
 
 
@@ -103,7 +107,7 @@ Sept 2022 – Mar 2023
 
 **Networking & Infrastructure:** Nginx, HAProxy, NetBird, SSH, OpenVPN, SCP, Linux, Windows
 
-**AI/ML:** Ollama, Hugging Face, OpenRouter
+**AI/ML:** Ollama, Hugging Face, OpenRouter, OpenAI-Compatible
 
 **Testing:** Postman, Insomnia, Swagger, REST Client
 
