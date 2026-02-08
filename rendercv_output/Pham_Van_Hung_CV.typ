@@ -92,7 +92,7 @@
   [
 = Pham Van Hung
 
-  #headline([Backend Developer (Golang\/Python)])
+  #headline([Software Engineer])
 
 #connections(
   [#connection-with-icon("location-dot")[Binh Thanh District, Ho Chi Minh City, Vietnam]],
