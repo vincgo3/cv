@@ -19,11 +19,11 @@ jobs:
 
       - name: Render CV
         run: |
+          rm -rf rendercv_output
           docker run --rm \
             -v ${{ github.workspace }}:/workspace \
             -w /workspace \
             ghcr.io/rendercv/rendercv:v2.6 render "Pham_Van_Hung_CV.yaml"
-          sudo chown -R $USER:$USER rendercv_output
 
       - name: Commit changes
         run: |
