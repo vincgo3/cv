@@ -38,7 +38,7 @@ Oct 2023 – present
 
 
 
-2 years 5 months
+2 years 6 months
 
 - Designed and implemented scalable backend services and database systems for high-volume data processing
 

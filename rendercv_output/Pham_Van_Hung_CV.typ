@@ -1,12 +1,14 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.1.0": *
+#import "@preview/rendercv:0.2.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Pham Van Hung",
+  title: "Pham Van Hung - CV",
   footer: context { [#emph[Pham Van Hung -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Feb 2026] ],
+  top-note: [ #emph[Last updated in Mar 2026] ],
   locale-catalog-language: "en",
+  text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 0.7in,
   page-bottom-margin: 0.7in,
@@ -67,6 +69,7 @@
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: true,
+  entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0cm,
   entries-highlights-bullet:  "•" ,
@@ -77,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 2,
-    day: 8,
+    month: 3,
+    day: 16,
   ),
 )
 
@@ -174,7 +177,7 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
 
     Oct 2023 – present
 
-    2 years 5 months
+    2 years 6 months
 
   ],
 )
