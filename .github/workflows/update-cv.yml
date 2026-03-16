@@ -23,7 +23,7 @@ jobs:
           docker run --rm \
             -v ${{ github.workspace }}:/workspace \
             -w /workspace \
-            ghcr.io/rendercv/rendercv:v2.7 render "Pham_Van_Hung_CV.yaml"
+            ghcr.io/rendercv/rendercv:v2.6 render "Pham_Van_Hung_CV.yaml"
 
       - name: Commit changes
         run: |
