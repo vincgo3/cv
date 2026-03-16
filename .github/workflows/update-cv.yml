@@ -19,7 +19,7 @@ jobs:
 
       - name: Render CV
         run: |
-          rm -rf rendercv_output
+          ls -lha
           docker run --rm \
             -v ${{ github.workspace }}:/workspace \
             -w /workspace \
