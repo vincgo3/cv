@@ -19,11 +19,11 @@ jobs:
 
       - name: Render CV
         run: |
-          chmod 777 rendercv_output
+          ls -lha rendercv_output
           docker run --rm \
             -v ${{ github.workspace }}:/workspace \
             -w /workspace \
-            ghcr.io/rendercv/rendercv:v2.7 render "Pham_Van_Hung_CV.yaml"
+            ghcr.io/rendercv/rendercv:v2.7 ls -lha rendercv_output && render "Pham_Van_Hung_CV.yaml"
 
       - name: Commit changes
         run: |
