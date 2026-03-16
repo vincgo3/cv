@@ -20,6 +20,7 @@ jobs:
       - name: Render CV
         run: |
           docker run --rm \
+            --user $(id -u):$(id -g) \
             -v ${{ github.workspace }}:/workspace \
             -w /workspace \
             ghcr.io/rendercv/rendercv:v2.6 render "Pham_Van_Hung_CV.yaml"
