@@ -19,7 +19,7 @@ jobs:
 
       - name: Render CV
         run: |
-          sudo chmod -R a+w rendercv_output/*
+          sudo rm -rf rendercv_output
           docker run --rm \
             -v ${{ github.workspace }}:/workspace \
             -w /workspace \
