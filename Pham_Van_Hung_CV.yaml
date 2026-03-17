@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.7/schema.json
 cv:
   name: Pham Van Hung
   headline: Software Engineer
@@ -15,7 +15,7 @@ cv:
   sections:
     summary:
       - |
-        Software Engineer with 3+ years of experience in backend development, DevOps, and security engineering.
+        Software Engineer with over 3 years of experience in backend development and DevOps.
         Passionate about building scalable, reliable, and secure systems and solving complex technical challenges.
         Seeking opportunities to create impactful solutions and grow as a senior engineer
     education:
@@ -46,7 +46,7 @@ cv:
           - Applied AI/ML techniques to cluster, deduplicate, and classify large-scale internet data for intelligent information processing
           - Developed centralized cybersecurity data management systems supporting security teams and ecosystem products
           - Containerized and deployed services using Docker, Docker Compose and Kubernetes in production environments
-          - Designed CI/CD pipelines to automate testing, build and deployment
+          - Designed CI/CD pipelines to automate testing, build, security scanning and deployment
           - Monitored and improved system reliability, scalability, and performance
           - Contributed to product development in an Agile/Scrum environment, working cross-functionally and applying OKRs to drive prioritization and achieve product goals
       - company: Bestarion
@@ -61,7 +61,7 @@ cv:
           - Contributed to product development in an collaborative Agile/Scrum environment
     skills:
       - label: Programming Languages
-        details: Go, Python, Java, Ruby
+        details: Golang, Python, Java, Ruby
       - label: Frameworks & Libraries
         details: Gin, Beego, GORM, entgo, FastAPI, Spring Boot, Ruby On Rails
       - label: Databases & Storage
@@ -79,7 +79,7 @@ cv:
       - label: AI/ML
         details: Ollama, Hugging Face, OpenRouter, OpenAI-Compatible
       - label: Testing
-        details: Postman, Insomnia, Swagger, REST Client
+        details: Postman, Insomnia, Swagger, OpenAPI, REST Client
       - label: Additional
         details: Git, GitHub/GitLab/BitBucket, Jira/Trello, Confluence, Visual Studio Code, IntelliJ IDEA
     projects:
