@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 3,
-    day: 16,
+    day: 17,
   ),
 )
 
@@ -111,7 +111,7 @@
 
 == Summary
 
-Software Engineer with 3+ years of experience in backend development, DevOps, and security engineering.
+Software Engineer with over 3 years of experience in backend development and DevOps.
 Passionate about building scalable, reliable, and secure systems and solving complex technical challenges.
 Seeking opportunities to create impactful solutions and grow as a senior engineer
 
@@ -165,7 +165,7 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
 
     - Containerized and deployed services using Docker, Docker Compose and Kubernetes in production environments
 
-    - Designed CI\/CD pipelines to automate testing, build and deployment
+    - Designed CI\/CD pipelines to automate testing, build, security scanning and deployment
 
     - Monitored and improved system reliability, scalability, and performance
 
@@ -207,7 +207,7 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
 
 == Skills
 
-#strong[Programming Languages:] Go, Python, Java, Ruby
+#strong[Programming Languages:] Golang, Python, Java, Ruby
 
 #strong[Frameworks & Libraries:] Gin, Beego, GORM, entgo, FastAPI, Spring Boot, Ruby On Rails
 
@@ -225,7 +225,7 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
 
 #strong[AI\/ML:] Ollama, Hugging Face, OpenRouter, OpenAI-Compatible
 
-#strong[Testing:] Postman, Insomnia, Swagger, REST Client
+#strong[Testing:] Postman, Insomnia, Swagger, OpenAPI, REST Client
 
 #strong[Additional:] Git, GitHub\/GitLab\/BitBucket, Jira\/Trello, Confluence, Visual Studio Code, IntelliJ IDEA
 

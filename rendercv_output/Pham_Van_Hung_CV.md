@@ -9,7 +9,7 @@
 
 
 # Summary
-Software Engineer with 3+ years of experience in backend development, DevOps, and security engineering.
+Software Engineer with over 3 years of experience in backend development and DevOps.
 Passionate about building scalable, reliable, and secure systems and solving complex technical challenges.
 Seeking opportunities to create impactful solutions and grow as a senior engineer
 
@@ -62,7 +62,7 @@ Oct 2023 – present
 
 - Containerized and deployed services using Docker, Docker Compose and Kubernetes in production environments
 
-- Designed CI/CD pipelines to automate testing, build and deployment
+- Designed CI/CD pipelines to automate testing, build, security scanning and deployment
 
 - Monitored and improved system reliability, scalability, and performance
 
@@ -91,7 +91,7 @@ Sept 2022 – Mar 2023
 
 
 # Skills
-**Programming Languages:** Go, Python, Java, Ruby
+**Programming Languages:** Golang, Python, Java, Ruby
 
 **Frameworks & Libraries:** Gin, Beego, GORM, entgo, FastAPI, Spring Boot, Ruby On Rails
 
@@ -109,7 +109,7 @@ Sept 2022 – Mar 2023
 
 **AI/ML:** Ollama, Hugging Face, OpenRouter, OpenAI-Compatible
 
-**Testing:** Postman, Insomnia, Swagger, REST Client
+**Testing:** Postman, Insomnia, Swagger, OpenAPI, REST Client
 
 **Additional:** Git, GitHub/GitLab/BitBucket, Jira/Trello, Confluence, Visual Studio Code, IntelliJ IDEA
 
