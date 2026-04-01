@@ -6,7 +6,7 @@
   name: "Pham Van Hung",
   title: "Pham Van Hung - CV",
   footer: context { [#emph[Pham Van Hung -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Mar 2026] ],
+  top-note: [ #emph[Last updated in Apr 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 17,
+    month: 4,
+    day: 1,
   ),
 )
 
@@ -177,7 +177,7 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
 
     Oct 2023 – present
 
-    2 years 6 months
+    2 years 7 months
 
   ],
 )
