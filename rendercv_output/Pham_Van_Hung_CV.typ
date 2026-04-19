@@ -17,11 +17,11 @@
   page-show-footer: true,
   page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
-  colors-name: rgb(0, 79, 144),
-  colors-headline: rgb(0, 79, 144),
-  colors-connections: rgb(0, 79, 144),
-  colors-section-titles: rgb(0, 79, 144),
-  colors-links: rgb(0, 79, 144),
+  colors-name: rgb(0, 0, 0),
+  colors-headline: rgb(0, 0, 0),
+  colors-connections: rgb(0, 0, 0),
+  colors-section-titles: rgb(0, 0, 0),
+  colors-links: rgb(0, 0, 0),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.6em,
@@ -45,7 +45,7 @@
   typography-bold-headline: false,
   typography-bold-connections: false,
   typography-bold-section-titles: true,
-  links-underline: false,
+  links-underline: true,
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
@@ -53,11 +53,11 @@
   header-space-below-headline: 0.7cm,
   header-space-below-connections: 0.7cm,
   header-connections-hyperlink: true,
-  header-connections-show-icons: true,
-  header-connections-display-urls-instead-of-usernames: false,
-  header-connections-separator: "",
+  header-connections-show-icons: false,
+  header-connections-display-urls-instead-of-usernames: true,
+  header-connections-separator: "•",
   header-connections-space-between-connections: 0.5cm,
-  section-titles-type: "with_partial_line",
+  section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.5cm,
   section-titles-space-below: 0.3cm,
@@ -68,12 +68,12 @@
   entries-side-space: 0.2cm,
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
-  entries-short-second-row: true,
+  entries-short-second-row: false,
   entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0cm,
-  entries-highlights-bullet:  "•" ,
-  entries-highlights-nested-bullet:  "•" ,
+  entries-highlights-bullet:  "◦" ,
+  entries-highlights-nested-bullet:  "◦" ,
   entries-highlights-space-left: 0.15cm,
   entries-highlights-space-above: 0cm,
   entries-highlights-space-between-items: 0cm,
@@ -81,126 +81,88 @@
   date: datetime(
     year: 2026,
     month: 4,
-    day: 15,
+    day: 19,
   ),
 )
 
 
-#grid(
-  columns: (auto, 1fr),
-  column-gutter: 0cm,
-  align: horizon + left,
-  [#pad(left: 0.4cm, right: 0.4cm, image("photo.png", width: 3.5cm))
-],
-  [
 = Pham Van Hung
 
   #headline([Software Engineer])
 
 #connections(
-  [#connection-with-icon("location-dot")[Binh Thanh District, Ho Chi Minh City, Vietnam]],
-  [#link("mailto:phamhunggl721@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[phamhunggl721\@gmail.com]]],
-  [#link("tel:+84-898-759-325", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[0898 759 325]]],
-  [#link("https://www.facebook.com/phamhung.dev", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[www.facebook.com\/phamhung.dev]]],
-  [#link("https://linkedin.com/in/phamhung-dev", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[phamhung-dev]]],
-  [#link("https://github.com/vincgo3", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[vincgo3]]],
-)
-  ]
+  [Binh Thanh District, Ho Chi Minh City, Vietnam],
+  [#link("mailto:phamhunggl721@gmail.com", icon: false, if-underline: false, if-color: false)[phamhunggl721\@gmail.com]],
+  [#link("tel:+84-898-759-325", icon: false, if-underline: false, if-color: false)[0898 759 325]],
+  [#link("https://linkedin.com/in/phamhung-dev", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/phamhung-dev]],
+  [#link("https://github.com/vincgo3", icon: false, if-underline: false, if-color: false)[github.com\/vincgo3]],
 )
 
 
 == Summary
 
-Software Engineer with over 3 years of experience in backend development and DevOps.
-Passionate about building scalable, reliable, and secure systems and solving complex technical challenges.
-Seeking opportunities to create impactful solutions and grow as a senior engineer
-
-== Education
-
-#education-entry(
-  [
-    #strong[Ho Chi Minh City University of Technology], Information Technology
-
-    - GPA: 3.75\/4.0
-
-    - Awarded Outstanding Student of the Program (2019-2023)
-
-  ],
-  [
-    Thu Duc City, Ho Chi Minh City, Vietnam
-
-    Sept 2019 – Sept 2023
-
-  ],
-  degree-column: [
-    #strong[B.Eng.]
-  ],
-)
+#strong[Software Engineer] with #strong[over 3 years] of experience in #strong[backend development], #strong[distributed systems], and #strong[DevOps].
+Passionate about building #strong[scalable], #strong[reliable], and #strong[secure systems] to solve complex technical problems.
+Seeking new opportunities to create meaningful impact and grow toward a #strong[Principal Software Engineer] position.
 
 == Experience
 
 #regular-entry(
   [
-    #strong[AS Solutions], Backend Developer (Golang\/Python)
+    #strong[Backend Developer (Golang\/Python)]
 
-    - Designed and implemented scalable backend services and database systems for high-volume data processing
-
-    - Built microservices architecture using gRPC
-
-    - Engineered distributed data ingestion pipelines integrating external internet sources and internal services
-
-    - Automated data processing workflows to improve operational efficiency and reliability
-
-    - Built large-scale monitoring systems for internet and social media intelligence gathering
-
-    - Developed real-time notification infrastructure serving end users
-
-    - Aggregated and analyzed cybersecurity intelligence, including vulnerabilities, threat data, and breach datasets
-
-    - Conducted vulnerability scanning and security assessments of internet-facing assets
-
-    - Applied AI\/ML techniques to cluster, deduplicate, and classify large-scale internet data for intelligent information processing
-
-    - Developed centralized cybersecurity data management systems supporting security teams and ecosystem products
-
-    - Containerized and deployed services using Docker, Docker Compose and Kubernetes in production environments
-
-    - Designed CI\/CD pipelines to automate testing, build, security scanning and deployment
-
-    - Monitored and improved system reliability, scalability, and performance
-
-    - Contributed to product development in an Agile\/Scrum environment, working cross-functionally and applying OKRs to drive prioritization and achieve product goals
+    #emph[AS Solutions]
 
   ],
   [
-    District 3, Ho Chi Minh City, Vietnam
+    #emph[District 3, Ho Chi Minh City, Vietnam]
 
-    Oct 2023 – present
+    #emph[Oct 2023 – present]
 
-    2 years 7 months
+  ],
+  main-column-second-row: [
+    - Designed #strong[scalable] backend services and databases for #strong[cybersecurity threat intelligence] processing
+
+    - Developed #strong[microservices (gRPC)] and #strong[distributed ingestion pipelines] collecting threat data from internet, social media, and dark web
+
+    - Developed #strong[real-time monitoring] and #strong[notification systems] to detect threats and alert users based on custom rules
+
+    - Developed #strong[centralized threat intelligence platform] supporting ecosystem products and security teams in search, analysis, and data management
+
+    - Applied #strong[AI\/ML] for clustering, deduplication, and intelligent classification of threat data
+
+    - Containerized (#strong[Docker]) and orchestrated (#strong[Kubernetes]) services with automated #strong[CI\/CD pipelines]
+
+    - Monitored and improved system #strong[reliability], #strong[scalability], and #strong[performance]
+
+    - Conducted #strong[vulnerability scanning] and #strong[security assessments] of internet-facing assets
+
+    - Contributed to #strong[Agile] product development using #strong[OKRs]
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Bestarion], Backend Developer (Ruby on Rails)
+    #strong[Backend Developer (Ruby on Rails)]
 
-    - Designed and developed internal web applications to support company operations and employee activities
-
-    - Collaborated with stakeholders to gather requirements and improve system usability
-
-    - Maintained and enhanced existing web systems to ensure performance and reliability
-
-    - Contributed to product development in an collaborative Agile\/Scrum environment
+    #emph[Bestarion]
 
   ],
   [
-    District 12, Ho Chi Minh City, Vietnam
+    #emph[District 12, Ho Chi Minh City, Vietnam]
 
-    Sept 2022 – Mar 2023
+    #emph[Sept 2022 – Mar 2023]
 
-    7 months
+  ],
+  main-column-second-row: [
+    - Designed and developed #strong[internal web applications] to support company operations and employee activities
+
+    - Collaborated with #strong[stakeholders] to gather requirements and improve system usability
+
+    - Maintained and enhanced existing web systems to ensure #strong[performance] and #strong[reliability]
+
+    - Contributed to product development in an collaborative #strong[Agile\/Scrum] environment
 
   ],
 )
@@ -211,101 +173,45 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
 
 #strong[Frameworks & Libraries:] Gin, Beego, GORM, entgo, FastAPI, Spring Boot, Ruby On Rails
 
-#strong[Databases & Storage:] PostgreSQL, MySQL, MSSQL, MongoDB, Neo4j, Milvus, Redis, MinIO
+#strong[Databases & Storage:] PostgreSQL, MySQL, Microsoft SQL Server, MongoDB, Neo4j, Milvus, Redis, MinIO
 
-#strong[Distributed Systems & Messaging:] Kafka, RabbitMQ, NSQ, gRPC, Protobuf, REST APIs, WebSocket
+#strong[Distributed Systems & Messaging:] Kafka, RabbitMQ, NATS, NSQ, gRPC, Protobuf, REST APIs, WebSocket
 
-#strong[Containerization & Virtualization:] Docker, Kubernetes, CI\/CD, Rancher, VMware, VirtualBox, QEMU, Proxmox
+#strong[CI\/CD:] GitLab CI, GitHub Actions
+
+#strong[Containerization & Virtualization:] Docker, Kubernetes, Rancher, VMware, VirtualBox, QEMU, Proxmox
 
 #strong[Monitoring & Observability:] Prometheus, Grafana, ELK Stack, Jaeger, OpenTelemetry
 
-#strong[System Architecture:] Microservices, Monolith, Clean Architecture, MVC
+#strong[System Architecture:] Microservices, Clean Architecture, Monolithic Architecture, MVC
 
 #strong[Networking & Infrastructure:] Nginx, HAProxy, NetBird, SSH, OpenVPN, SCP, Linux, Windows
 
-#strong[AI\/ML:] Ollama, Hugging Face, OpenRouter, OpenAI-Compatible
+#strong[AI\/ML Tools:] Ollama, Hugging Face, OpenRouter, OpenAI-Compatible APIs
 
-#strong[Testing:] Postman, Insomnia, Swagger, OpenAPI, REST Client
+#strong[Testing:] Postman, Insomnia, Swagger, OpenAPI
 
-#strong[Additional:] Git, GitHub\/GitLab\/BitBucket, Jira\/Trello, Confluence, Visual Studio Code, IntelliJ IDEA
+#strong[Tools & Others:] Git, GitHub\/GitLab\/BitBucket, Jira\/Trello, Confluence, VS Code, IntelliJ IDEA
 
-== Projects
+== Education
 
-#regular-entry(
+#education-entry(
   [
-    #strong[#link("https://github.com/vincgo3/search-engine")[Search Engine]]
+    #strong[Ho Chi Minh City University of Technology]
 
-    #summary[Search for anything on your computer inspired by Everything]
-
-    - Architected and implemented a cross-platform file indexing system for Windows and Linux using Go and Clean Architecture
-
-    - Built a real-time filesystem monitoring pipeline to synchronize data with PostgreSQL and Elasticsearch
-
-    - Indexed file metadata and extracted document content (Word, Excel, PowerPoint, ...) for full-text search
-
-    - Developed high-performance REST APIs with Gin and Beego using GORM for data access
-
-    - Implemented advanced search capabilities with Elasticsearch, including fuzzy search and multi-criteria filtering
-
-    - Integrated authentication and authorization using JWT and Casbin
-
-    - Implemented caching and object storage using Redis and MinIO
-
-    - Optimized indexing and query performance for low-latency Vietnamese text search
-
-    - Containerized services with Docker and Docker Compose and deployed on Kubernetes
-
-    - Configured CI\/CD workflows and automated dependency updates with GitHub Dependabot
+    #emph[B.Eng.] #emph[in] #emph[Information Technology]
 
   ],
   [
-    Nov 2023 – present
+    #emph[Thu Duc City, Ho Chi Minh City, Vietnam]
+
+    #emph[Sept 2019 – Sept 2023]
 
   ],
-)
+  main-column-second-row: [
+    - GPA: #strong[3.75\/4.0]
 
-#regular-entry(
-  [
-    #strong[#link("https://github.com/vincgo3/web-scraper")[Web Scraper]]
-
-    #summary[ANY.RUN Intelligence Scraper]
-
-    - Developed an automated cybersecurity intelligence scraping system from ANY.RUN using Go
-
-    - Extracted and structured malware analysis reports and threat data using Chromedp headless browser automation
-
-    - Built data pipelines for cleaning, normalization, and storage of collected datasets
-
-    - Implemented fault-tolerant scraping workflows with error handling and rate limiting
-
-  ],
-  [
-    Nov 2023 – present
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/vincgo3/YoloShop-eCommerce-Project")[Yolo Shop]]
-
-    #summary[Shoe E-commerce Website]
-
-    - Designed and developed an e-commerce web application for online shoe sales
-
-    - Implemented product catalog, order management, and payment workflows
-
-    - Built revenue tracking and statistical dashboards for business analytics
-
-    - Developed backend services using Ruby on Rails with PostgreSQL database integration
-
-    - Implemented interactive frontend features using HTML, CSS and JavaScript
-
-    - Optimized database queries and application performance
-
-  ],
-  [
-    Oct 2022 – present
+    - Awarded #strong[Outstanding Student of the Program] (2019-2023)
 
   ],
 )
@@ -316,11 +222,13 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
   [
     #strong[Gemini Certified Educator]
 
-    #summary[Google for Education]
-
   ],
   [
-    Feb 2026
+    #emph[Feb 2026]
+
+  ],
+  main-column-second-row: [
+    #summary[Google for Education]
 
   ],
 )
@@ -329,11 +237,13 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
   [
     #strong[Certificate of English Level B1]
 
-    #summary[Ho Chi Minh City University of Technology]
-
   ],
   [
-    Oct 2022
+    #emph[Oct 2022]
+
+  ],
+  main-column-second-row: [
+    #summary[Ho Chi Minh City University of Technology]
 
   ],
 )
@@ -342,11 +252,13 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
   [
     #strong[Global Software Talent]
 
-    #summary[FPT Software]
-
   ],
   [
-    July 2022
+    #emph[July 2022]
+
+  ],
+  main-column-second-row: [
+    #summary[FPT Software]
 
   ],
 )
@@ -355,11 +267,13 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
   [
     #strong[Agile & Scrum Training]
 
-    #summary[DEK Technologies]
-
   ],
   [
-    June 2022
+    #emph[June 2022]
+
+  ],
+  main-column-second-row: [
+    #summary[DEK Technologies]
 
   ],
 )
@@ -370,11 +284,13 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
   [
     #strong[Outstanding Employee of the Year (2025)]
 
-    #summary[AS Solutions]
-
   ],
   [
-    Jan 2026
+    #emph[Jan 2026]
+
+  ],
+  main-column-second-row: [
+    #summary[AS Solutions]
 
   ],
 )
@@ -383,11 +299,13 @@ Seeking opportunities to create impactful solutions and grow as a senior enginee
   [
     #strong[Outstanding Student of the Program (2019-2023)]
 
-    #summary[Ho Chi Minh City University of Technology]
-
   ],
   [
-    Sept 2023
+    #emph[Sept 2023]
+
+  ],
+  main-column-second-row: [
+    #summary[Ho Chi Minh City University of Technology]
 
   ],
 )
