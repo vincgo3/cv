@@ -76,7 +76,7 @@ cv:
       - label: System Architecture
         details: Microservices, Clean Architecture, Monolithic Architecture, MVC
       - label: Networking & Infrastructure
-        details: Nginx, HAProxy, NetBird, SSH, OpenVPN, SCP, Linux, Windows
+        details: Ansible, Nginx, HAProxy, NetBird, SSH, OpenVPN, SCP, Linux, Windows
       - label: AI/ML Tools
         details: Ollama, Hugging Face, OpenRouter, OpenAI-Compatible APIs
       - label: Testing

@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 4,
-    day: 19,
+    day: 21,
   ),
 )
 
@@ -185,7 +185,7 @@ Seeking new opportunities to create meaningful impact and grow toward a #strong[
 
 #strong[System Architecture:] Microservices, Clean Architecture, Monolithic Architecture, MVC
 
-#strong[Networking & Infrastructure:] Nginx, HAProxy, NetBird, SSH, OpenVPN, SCP, Linux, Windows
+#strong[Networking & Infrastructure:] Ansible, Nginx, HAProxy, NetBird, SSH, OpenVPN, SCP, Linux, Windows
 
 #strong[AI\/ML Tools:] Ollama, Hugging Face, OpenRouter, OpenAI-Compatible APIs
 
