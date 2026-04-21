@@ -77,7 +77,7 @@ Seeking new opportunities to create meaningful impact and grow toward a **Princi
 
 **System Architecture:** Microservices, Clean Architecture, Monolithic Architecture, MVC
 
-**Networking & Infrastructure:** Nginx, HAProxy, NetBird, SSH, OpenVPN, SCP, Linux, Windows
+**Networking & Infrastructure:** Ansible, Nginx, HAProxy, NetBird, SSH, OpenVPN, SCP, Linux, Windows
 
 **AI/ML Tools:** Ollama, Hugging Face, OpenRouter, OpenAI-Compatible APIs
 
