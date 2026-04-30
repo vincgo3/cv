@@ -1,5 +1,5 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.2.0": *
+#import "@preview/rendercv:0.3.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
@@ -81,11 +81,18 @@
   date: datetime(
     year: 2026,
     month: 4,
-    day: 21,
+    day: 30,
   ),
 )
 
 
+#grid(
+  columns: (auto, 1fr),
+  column-gutter: 0cm,
+  align: horizon + left,
+  [#pad(left: 0.4cm, right: 0.4cm, image("photo.png", width: 3.5cm))
+],
+  [
 = Pham Van Hung
 
   #headline([Software Engineer])
@@ -97,6 +104,8 @@
   [#link("https://linkedin.com/in/phamhung-dev", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/phamhung-dev]],
   [#link("https://github.com/vincgo3", icon: false, if-underline: false, if-color: false)[github.com\/vincgo3]],
 )
+  ]
+)
 
 
 == Summary
@@ -104,6 +113,7 @@
 #strong[Software Engineer] with #strong[over 3 years] of experience in #strong[backend development], #strong[distributed systems], and #strong[DevOps].
 Passionate about building #strong[scalable], #strong[reliable], and #strong[secure systems] to solve complex technical problems.
 Seeking new opportunities to create meaningful impact and grow toward a #strong[Principal Software Engineer] position.
+
 
 == Experience
 
@@ -144,6 +154,37 @@ Seeking new opportunities to create meaningful impact and grow toward a #strong[
 
 #regular-entry(
   [
+    #strong[Software Engineer (Java)]
+
+    #emph[OpenWay Vietnam]
+
+  ],
+  [
+    #emph[District 7, Ho Chi Minh City, Vietnam]
+
+    #emph[Apr 2023 – July 2023]
+
+  ],
+  main-column-second-row: [
+    - Built a tool to #strong[convert batch card issuance data from CSV to XML format]
+
+    - Maintained and improved a #strong[flexible XML conversion tool] for different input formats
+
+    - Worked with #strong[card\/e-wallet issuance contract data] and supported data standardization
+
+    - Explored and understood #strong[Way4 contract structure] and related basic objects
+
+    - Gained knowledge of #strong[customer management] and #strong[card\/e-wallet product models]
+
+    - Collaborated with team to support #strong[contract data processing] and related tasks
+
+    - Worked in an #strong[Agile\/Scrum] environment
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Backend Developer (Ruby on Rails)]
 
     #emph[Bestarion]
@@ -171,7 +212,7 @@ Seeking new opportunities to create meaningful impact and grow toward a #strong[
 
 #strong[Programming Languages:] Golang, Python, Java, Ruby
 
-#strong[Frameworks & Libraries:] Gin, Beego, GORM, entgo, FastAPI, Spring Boot, Ruby On Rails
+#strong[Frameworks & Libraries:] Gin, Beego, GORM, entgo, FastAPI, Spring Boot, Hibernate, Ruby On Rails
 
 #strong[Databases & Storage:] PostgreSQL, MySQL, Microsoft SQL Server, MongoDB, Neo4j, Milvus, Redis, MinIO
 

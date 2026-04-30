@@ -1,10 +1,10 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.7/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Pham Van Hung
   headline: Software Engineer
   location: Binh Thanh District, Ho Chi Minh City, Vietnam
   email: phamhunggl721@gmail.com
-  # photo: images/photo.png
+  photo: images/photo.png
   phone: +84 898 759 325
   social_networks:
     - network: LinkedIn
@@ -43,6 +43,25 @@ cv:
           - Conducted **vulnerability scanning** and **security assessments** of
             internet-facing assets
           - Contributed to **Agile** product development using **OKRs**
+      - company: OpenWay Vietnam
+        position: Software Engineer (Java)
+        start_date: 2023-04
+        end_date: 2023-07
+        location: District 7, Ho Chi Minh City, Vietnam
+        highlights:
+          - Built a tool to **convert batch card issuance data from CSV to XML
+            format**
+          - Maintained and improved a **flexible XML conversion tool** for
+            different input formats
+          - Worked with **card/e-wallet issuance contract data** and supported
+            data standardization
+          - Explored and understood **Way4 contract structure** and related
+            basic objects
+          - Gained knowledge of **customer management** and **card/e-wallet
+            product models**
+          - Collaborated with team to support **contract data processing** and
+            related tasks
+          - Worked in an **Agile/Scrum** environment
       - company: Bestarion
         position: Backend Developer (Ruby on Rails)
         start_date: 2022-09
@@ -61,7 +80,7 @@ cv:
       - label: Programming Languages
         details: Golang, Python, Java, Ruby
       - label: Frameworks & Libraries
-        details: Gin, Beego, GORM, entgo, FastAPI, Spring Boot, Ruby On Rails
+        details: Gin, Beego, GORM, entgo, FastAPI, Spring Boot, Hibernate, Ruby On Rails
       - label: Databases & Storage
         details: PostgreSQL, MySQL, Microsoft SQL Server, MongoDB, Neo4j, Milvus, Redis,
           MinIO

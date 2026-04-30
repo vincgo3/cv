@@ -42,6 +42,30 @@ Seeking new opportunities to create meaningful impact and grow toward a **Princi
 
 
 
+## **Software Engineer (Java)**
+
+*District 7, Ho Chi Minh City, Vietnam*
+
+*Apr 2023 – July 2023*
+
+*OpenWay Vietnam*
+
+- Built a tool to **convert batch card issuance data from CSV to XML format**
+
+- Maintained and improved a **flexible XML conversion tool** for different input formats
+
+- Worked with **card/e-wallet issuance contract data** and supported data standardization
+
+- Explored and understood **Way4 contract structure** and related basic objects
+
+- Gained knowledge of **customer management** and **card/e-wallet product models**
+
+- Collaborated with team to support **contract data processing** and related tasks
+
+- Worked in an **Agile/Scrum** environment
+
+
+
 ## **Backend Developer (Ruby on Rails)**
 
 *District 12, Ho Chi Minh City, Vietnam*
@@ -63,7 +87,7 @@ Seeking new opportunities to create meaningful impact and grow toward a **Princi
 # Skills
 **Programming Languages:** Golang, Python, Java, Ruby
 
-**Frameworks & Libraries:** Gin, Beego, GORM, entgo, FastAPI, Spring Boot, Ruby On Rails
+**Frameworks & Libraries:** Gin, Beego, GORM, entgo, FastAPI, Spring Boot, Hibernate, Ruby On Rails
 
 **Databases & Storage:** PostgreSQL, MySQL, Microsoft SQL Server, MongoDB, Neo4j, Milvus, Redis, MinIO
 
@@ -86,7 +110,9 @@ Seeking new opportunities to create meaningful impact and grow toward a **Princi
 **Tools & Others:** Git, GitHub/GitLab/BitBucket, Jira/Trello, Confluence, VS Code, IntelliJ IDEA
 
 # Education
-## **Ho Chi Minh City University of Technology***Thu Duc City, Ho Chi Minh City, Vietnam*
+## **Ho Chi Minh City University of Technology**
+*Thu Duc City, Ho Chi Minh City, Vietnam*
+
 
 *Sept 2019 – Sept 2023*
 
