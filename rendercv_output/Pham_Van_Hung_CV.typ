@@ -6,7 +6,7 @@
   name: "Pham Van Hung",
   title: "Pham Van Hung - CV",
   footer: context { [#emph[Pham Van Hung -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Apr 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 30,
+    month: 5,
+    day: 1,
   ),
 )
 
