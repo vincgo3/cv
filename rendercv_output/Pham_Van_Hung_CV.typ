@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 5,
-    day: 15,
+    day: 28,
   ),
 )
 
@@ -95,7 +95,7 @@
   [
 = Pham Van Hung
 
-  #headline([Software Engineer])
+  #headline([Software Engineer (Golang)])
 
 #connections(
   [Binh Thanh District, Ho Chi Minh City, Vietnam],
